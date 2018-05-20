@@ -1,13 +1,13 @@
-#Getting & Cleaning Data Course Project
+# Getting & Cleaning Data Course Project
 
 This readme file describes the assumptions made for this project, and how the main script (run_analysis.R) works.
 
-##Assumptions
+## Assumptions
 * The data for the project is available in a directory called "UCI HAR Dataset"
 * The folder structure for "UCI HAR Dataset" has not been altered in any way
 * The main script "run_analysis.R" is in the parent directory of "UCI HAR Dataset"
 
-##Workings of the main script
+## Workings of the main script
 1. The main script for processing the data is "run_analysis.R"
 2. At the begining of the script, 2 functions are defined for better readability of the code & to prevent code-redundancy
   * Since we have to load the exact same type of data twice: once for train & once for test group, a function **loaddataset(group)** has been created, which will load the dataset as described by the "group" parameter. The function returns the dataset which will have subject, activity_id, followed by 561 observations (each named as V{id}, where id is the feature id from features.txt from the original dataset)
