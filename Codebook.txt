@@ -1,0 +1,274 @@
+1   subject
+    INT
+    Possible Values: 1 - 30
+    Person who performed the activity
+
+2   activity
+    CHAR
+    Possible Values: "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS"
+    Describes the activity performed by the subject
+
+3   fBodyAcc_mean_X
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+4   fBodyAcc_mean_Y
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+5   fBodyAcc_mean_Z
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+6   fBodyAcc_std_X
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+7   fBodyAcc_std_Y
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+8   fBodyAcc_std_Z
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+9   fBodyAccJerk_mean_X
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+10  fBodyAccJerk_mean_Y
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+11  fBodyAccJerk_mean_Z
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+12  fBodyAccJerk_std_X
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+13  fBodyAccJerk_std_Y
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+14  fBodyAccJerk_std_Z
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+15  fBodyAccMag_mean
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+16  fBodyAccMag_std
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+17  fBodyBodyAccJerkMag_mean
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+18  fBodyBodyAccJerkMag_std
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+19  fBodyBodyGyroJerkMag_mean
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+20  fBodyBodyGyroJerkMag_std
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+21  fBodyBodyGyroMag_mean
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+22  fBodyBodyGyroMag_std
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+23  fBodyGyro_mean_X
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+24  fBodyGyro_mean_Y
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+25  fBodyGyro_mean_Z
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+26  fBodyGyro_std_X
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+27  fBodyGyro_std_Y
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+28  fBodyGyro_std_Z
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+29  tBodyAcc_mean_X
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+30  tBodyAcc_mean_Y
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+31  tBodyAcc_mean_Z
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+32  tBodyAcc_std_X
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+33  tBodyAcc_std_Y
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+34  tBodyAcc_std_Z
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+35  tBodyAccJerk_mean_X
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+36  tBodyAccJerk_mean_Y
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+37  tBodyAccJerk_mean_Z
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+38  tBodyAccJerk_std_X
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+39  tBodyAccJerk_std_Y
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+40  tBodyAccJerk_std_Z
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+41  tBodyAccJerkMag_mean
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+42  tBodyAccJerkMag_std
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+43  tBodyAccMag_mean
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+44  tBodyAccMag_std
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+45  tBodyGyro_mean_X
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+46  tBodyGyro_mean_Y
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+47  tBodyGyro_mean_Z
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+48  tBodyGyro_std_X
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+49  tBodyGyro_std_Y
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+50  tBodyGyro_std_Z
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+51  tBodyGyroJerk_mean_X
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+52  tBodyGyroJerk_mean_Y
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+53  tBodyGyroJerk_mean_Z
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+54  tBodyGyroJerk_std_X
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+55  tBodyGyroJerk_std_Y
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+56  tBodyGyroJerk_std_Z
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+57  tBodyGyroJerkMag_mean
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+58  tBodyGyroJerkMag_std
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+59  tBodyGyroMag_mean
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+60  tBodyGyroMag_std
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+61  tGravityAcc_mean_X
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+62  tGravityAcc_mean_Y
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+63  tGravityAcc_mean_Z
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+64  tGravityAcc_std_X
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+65  tGravityAcc_std_Y
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+66  tGravityAcc_std_Z
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+67  tGravityAccMag_mean
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
+68  tGravityAccMag_std
+    NUMERIC
+    This is mean of all the observations for this variable in test & train datasets for the given subject & activity. Refer to the "Readme.txt" & "features_info.txt" in the original dataset for the description of each variable.
+
